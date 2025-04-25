@@ -5,9 +5,9 @@ class Tester:
         deadline = True
 
     def work_hard(self, deadline=True):
-        if self.name == 'tester_1':
+        if deadline:
             print(self.name, 'Что ж, ещё часок поработаю!')
-        elif self.name == 'tester_2':
+        else:
             print(self.name, 'Можно отдыхать')
 
 tester_1 = Tester(name='tester_1')
